@@ -41,7 +41,7 @@ However, we get an exception when the application is run.
 
 Why?
 
-If you think know the answer, do NOT post it on social media. Instead email us at [blazorpuzzle@appvnext.com](mailto:blazorpuzzle@appvnext.com?subject=Puzzle 4) by Tuesday, September 19th, 2003. 
+If you think know the answer, do NOT post it on social media. Instead email us at [blazorpuzzle@appvnext.com](mailto:blazorpuzzle@appvnext.com?subject=Puzzle-4) by Tuesday, September 19th, 2003. 
 
 We will select a winner randomly from all of the correct answers, and that winner will receive a Blazor Puzzle mug AND a DevExpress T-Shirt.
 
