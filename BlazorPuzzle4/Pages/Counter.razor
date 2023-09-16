@@ -1,5 +1,5 @@
 ﻿@page "/counter"
-@inject BogusClass BogusThingy
+@inject BogusFactory Factory
 
 <h1>Counter</h1>
 
@@ -9,10 +9,16 @@
 
 @code {
     private int currentCount = 0;
+    private BogusClass bogus;
+
+    protected override void OnInitialized()
+    {
+        bogus = Factory.CreateInstance();
+    }
 
     private void LoadBigLibrary()
     {
-        BogusThingy.Method852();
+        bogus.Method852();
 
         currentCount++;
     }
